@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import Header from './components/header'
 import { Outlet } from 'react-router-dom'
 import Footer from './components/Footer'
 import 'aos/dist/aos.css';
 import Aos from 'aos'
 import Contact from './pages/Contact';
 import Address from './pages/Address';
+import Header from './components/Header';
 
 function App() {
   useEffect(() => {
@@ -23,7 +23,7 @@ function App() {
   }, []);
   return (
     <div>
-      <Header />
+      <Header/>
       <main className='dark:bg-[#161616]'>
         <Outlet />
         <Contact />
