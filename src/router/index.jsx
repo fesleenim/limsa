@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Team from "../pages/Team";
 import HomePages from "../pages/Home";
 import App from "../App";
-import Project from "../pages/project";
 import PricingCards from "../pages/Prices";
+import Project from "../pages/project";
 
 export const Router = createBrowserRouter([
     {
