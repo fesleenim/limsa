@@ -4,7 +4,6 @@ import { Outlet } from 'react-router-dom'
 import Footer from './components/Footer'
 import 'aos/dist/aos.css';
 import Aos from 'aos'
-import HomePages from './pages/Home';
 import Contact from './pages/Contact';
 import Address from './pages/Address';
 
