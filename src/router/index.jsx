@@ -3,7 +3,7 @@ import Team from "../pages/Team";
 import HomePages from "../pages/Home";
 import App from "../App";
 import PricingCards from "../pages/Prices";
-import Project from "../pages/project";
+import Project from "../pages/Project";
 
 export const Router = createBrowserRouter([
     {
