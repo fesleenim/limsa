@@ -5,16 +5,15 @@ import Contact from './Contact'
 import 'aos/dist/aos.css';
 import Aos from 'aos'
 import Question from './Question'
-import Project from './project'
-import Team from './team'
+import Team from './Team'
 import Footer from '../components/Footer';
-import Header from '../components/header';
+import Header from '../components/Header';
 import Hero from './Hero';
+import Project from './Project';
 
 function HomePages() {
   useEffect(() => {
     // Sahifa yuklanishi bilan yuqoriga qaytarish
-    window.scrollTo(0, 0);
 
     // AOS animatsiyasini ishga tushirish
     Aos.init({
