@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Team from "../pages/team";
+import Team from "../pages/Team";
 import HomePages from "../pages/Home";
 import App from "../App";
 import Project from "../pages/project";
