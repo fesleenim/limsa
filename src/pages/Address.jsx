@@ -6,11 +6,13 @@ import ShareIcon from '@mui/icons-material/Share';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import { useTranslation } from "react-i18next";
 
 function Address() {
+   const { t } = useTranslation()
   return (
     <div className="max-w-[1420px] mx-auto p-6 mt-20">
-      <h1 className="text-white text-4xl sm:text-5xl font-bold mb-10">Контакты</h1>
+      <h1 className="text-white text-4xl sm:text-5xl font-bold mb-10">{t('adress.title')}</h1>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
         {/* Chap tomonda aloqa ma'lumotlari */}
@@ -19,8 +21,8 @@ function Address() {
           <div className="flex items-center space-x-4 p-5 rounded-lg hover:scale-105 transition-transform ">
             <LocationOnIcon className="text-white" style={{ fontSize: "35px" }} />
             <div>
-              <strong className="text-white text-xl">Адрес</strong>
-              <p className="mt-1 text-gray-400 text-sm">город Ташкент, Юнусабадский район</p>
+              <strong className="text-white text-xl">{t('adress.title1')}</strong>
+              <p className="mt-1 text-gray-400 text-sm">{t('adress.desc2')}</p>
             </div>
           </div>
 
@@ -28,8 +30,8 @@ function Address() {
           <div className="flex items-center space-x-4 p-5 rounded-lg hover:scale-105 transition-transform ">
             <PhoneInTalkIcon className="text-white" style={{ fontSize: "35px" }} />
             <div>
-              <strong className="text-white text-xl">Телефон</strong>
-              <a href="tel:+998332587358" className="mt-1 text-gray-400 text-sm block hover:text-gray-200">+998 (33) 258 73 58</a>
+              <strong className="text-white text-xl">{t('adress.title2')}</strong>
+              <a href="tel:+998332587358" className="mt-1 text-gray-400 text-sm block hover:text-gray-200">{t('adress.desc2')}</a>
             </div>
           </div>
 
@@ -37,8 +39,8 @@ function Address() {
           <div className="flex items-center space-x-4 p-5 rounded-lg hover:scale-105 transition-transform ">
             <AccessTimeIcon className="text-white" style={{ fontSize: "35px" }} />
             <div>
-              <strong className="text-white text-xl">Рабочее время</strong>
-              <p className="mt-1 text-gray-400 text-sm">9:00 - 18:00 (Понедельник-Суббота)</p>
+              <strong className="text-white text-xl">{t('adress.title3')}</strong>
+              <p className="mt-1 text-gray-400 text-sm">{t('adress.desc3')}</p>
             </div>
           </div>
 
@@ -46,7 +48,7 @@ function Address() {
           <div className="flex items-center space-x-4 p-5 rounded-lg hover:scale-105 transition-transform ">
             <ShareIcon className="text-white" style={{ fontSize: "35px" }} />
             <div>
-              <strong className="text-white text-xl">Социальные сети</strong>
+              <strong className="text-white text-xl">{t('adress.title4')}</strong>
               <div className="flex space-x-3 mt-1">
                 <a href="#" className="text-gray-400 hover:text-white"><LinkedInIcon /></a>
                 <a href="#" className="text-gray-400 hover:text-white"><InstagramIcon /></a>

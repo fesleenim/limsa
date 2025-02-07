@@ -6,29 +6,27 @@ import PricingCards from "../pages/Prices";
 import Project from "../pages/Project";
 
 export const Router = createBrowserRouter([
+
     {
         path: "/",
-        element: <HomePages />,
-    },
-    {
-        path: "/App",
         element: <App />,
-        children:[
+        children: [
+            {
+                path: "/",
+                element: <HomePages />,
+            },
             {
                 path: "/service",
                 element: <Team />,
             },
             {
                 path: "/project",
-                element: <Project/>
+                element: <Project />
             },
             {
-                path:"/prices",
-                element: <PricingCards/>
+                path: "/prices",
+                element: <PricingCards />
             }
         ]
     }
-    
-
-
 ])

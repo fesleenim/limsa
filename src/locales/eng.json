@@ -1,0 +1,101 @@
+{
+    "header": {
+        "home": "Home",
+        "services": "Our Services",
+        "work": "Our Works",
+        "price": "Prices"
+    },
+    "hero": {
+        "title": "Perfect 'IT' solutions to grow your business!",
+        "desc": "Entrust your project to specialists with over 10 years of experience and achieve great success in a short time.",
+        "button": "Contact"
+    },
+    "question": {
+        "title": "Frequently Asked Questions",
+        "accordion1": "Why are your prices so low?",
+        "accordion1_": "Our prices are indeed lower than others, but this does not affect the quality. We have no extra staff, which reduces our expenses and allows us to offer affordable prices.",
+        "accordion2": "Can I edit my website in the future?",
+        "accordion2_": "Yes, absolutely! You will get access to the content management system (admin panel) along with instructions. The admin panel is user-friendly and does not require special skills.",
+        "accordion3": "Do you provide support after website development?",
+        "accordion3_": "After completing your website, we do not leave you alone! We offer free 24/7 maintenance and security for one year. After that, this service costs $10 per month."
+    },
+    "marquae": {
+        "title1": "MOBILE APPLICATIONS",
+        "title2": "AUTOMATION SYSTEMS",
+        "title3": "WEB DEVELOPMENT",
+        "title4": "DIGITAL SOLUTIONS"
+    },
+    "project": {
+        "title": "Our Latest Projects",
+        "project1title": "https://www.ataevbahodirbuild.uz/",
+        "desc1": "Ataev Bahodir Build – high-quality construction and renovation! Choose us to build your dream home.",
+        "project2title": "https://www.autozoomrental.com/",
+        "desc2": "AutoZoomRental – convenient and reliable car rentals! Make your journey more comfortable with our vehicles.",
+        "project3title": "https://www.it-time-academy.uz/",
+        "desc3": "IT Time Academy – the hub of modern IT education! Master future professions with us.",
+        "project4title": "https://www.homekit.uz/",
+        "desc4": "HomeKit – modern and convenient smart home solutions! Ensure your home’s security and comfort.",
+        "project5title": "https://www.uzloyal.uz/",
+        "desc5": "UzLoyal – a reliable and convenient loyalty system! The most effective way to engage your customers.",
+        "project6title": "https://www.namanganoits.uz/",
+        "desc6": "Namangan ITS – a center for modern IT knowledge and skills! Unlock new opportunities with us.",
+        "project7title": "https://www.propartnyor.uz/",
+        "desc7": "ProPartnyor – the destination for reliable and effective partnerships! Let’s succeed together.",
+        "project8title": "https://www.zamontour.uz/",
+        "desc8": "ZamonTour – an amazing travel experience! Make your trip unforgettable with us."
+    },
+    "team": {
+        "titel": "Why Us? Why do many people choose us?",
+        "desc": "Our Advantages",
+        "title1": "Responsiveness",
+        "desc1": "Our websites are responsive, meaning they are optimized for tablets and mobile devices. No extra fees apply.",
+        "title2": "Admin",
+        "desc2": "Your website will have a convenient and simple admin panel that will allow you to manage the site from within.",
+        "title3": "Security",
+        "desc3": "Our websites are protected by modern antivirus software and firewalls, making them resistant to spambots and attacks.",
+        "title4": "24/7 Monitoring",
+        "desc4": "Your website's operation is monitored automatically 24/7 to ensure uninterrupted service.",
+        "title5": "Domain & Hosting",
+        "desc5": "Forget the hassle of domain and hosting. We provide a free UZ domain and hosting for 6 months (then $10/month).",
+        "title6": "Uniqueness",
+        "desc6": "Each website we create has a unique design that stands out. One design — one website!"
+    },
+    "contact": {
+        "title": "Order a website for your business now and get a 10% discount as a gift!",
+        "desc": "Customer satisfaction is our top priority - LIMSA",
+        "page": "Pages",
+        "pagehome": "Home",
+        "service": "Our Services",
+        "inputtitle": "Leave your information",
+        "name": "Your Name",
+        "send": "Your Message",
+        "button": "Send"
+    },
+    "adress": {
+        "title": "Contacts",
+        "title1": "Address",
+        "desc1": "Tashkent city, Yunusabad district",
+        "title2": "Phone Number",
+        "desc2": "+998 (33) 258 73 58",
+        "title3": "Working Hours",
+        "desc3": "9:00 - 18:00, Monday - Saturday",
+        "title4": "Social Media"
+    },
+    "footer": {
+        "title": "© 2024 Limsa. All rights reserved."
+    },
+    "price": {
+        "title": "Our Latest Projects",
+        "title1": "PRICING PAGE",
+        "desc1": "A one-page website is also called a landing page. It is simple and introduces customers to the necessary information.",
+        "title2": "BUSINESS CARD WEBSITE",
+        "desc2": "This is the company's 'business card' on the internet. The purpose of the website is to present the company's services or products to visitors.",
+        "title3": "Exclusive",
+        "desc3": "This website is created based on your order. You can request any website according to your preference.",
+        "domen": "UZ Domain",
+        "ximoya": "24/7 Protection",
+        "day": "Completion time: 3 days",
+        "page": "Number of pages: 1",
+        "button": "Order Now"
+    }
+}

@@ -7,8 +7,11 @@ import Namangan from "../assets/namangan.jpg";
 import Uzloyal from "../assets/uzloyal.jpg";
 import Propartnyor from "../assets/propartnyor.jpg";
 import Zamon from "../assets/zamontour.jpg";
+import { NavLink } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 const projects = [
+
   { img: Bahodir, url: "https://www.ataevbahodirbuild.uz/", title: "ataevbahodirbuild.uz", desc: "Ataev Bahadir Build - качественные строительные и ремонтные услуги!" },
   { img: Avto, url: "https://www.autozoomrental.com/", title: "autozoomrental.com", desc: "AutoZoomRental - удобный и надежный прокат автомобилей!" },
   { img: ItTime, url: "https://www.it-time-academy.uz/", title: "it-time-academy.uz", desc: "IT Time Academy — место современных ИТ-знаний!" },
@@ -20,17 +23,20 @@ const projects = [
 ];
 
 function Project() {
+  const { t } = useTranslation()
   return (
     <div className="max-w-[1420px] mx-auto p-4 md:mt-20 mt-15">
-      <h1 className='text-5xl text-white text-center font-bold mt-10'>Наши недавние проекты</h1>
+      <h1 className='text-5xl text-white text-center font-bold mt-10'>{t('project.title')}</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
-        {projects.map((projects, index) => (
-          <a key={index} href={projects.url} className="p-4 rounded-lg hover:scale-105 transition-transform">
-            <strong className='text-white block mb-2'>{projects.title}</strong>
-            <img className="rounded-t-lg w-full h-48 object-cover" src={projects.img} alt={projects.title} />
-            <h5 className="mt-3 text-lg font-normal text-gray-300">{projects.desc}</h5>
-          </a>
+        {projects.map((project, index) => (
+          <NavLink key={index} to={project.url} className="p-4 rounded-lg hover:scale-105 transition-transform">
+            <strong className='text-white block mb-2'>{t(`project.project${index + 1}title`)}</strong>
+            <img className="rounded-t-lg w-full h-48 object-cover" src={project.img} alt={project.title} />
+            <h5 className="mt-3 text-lg font-normal text-gray-300">{t(`project.desc${index + 1}`)}</h5>
+          </NavLink>
         ))}
+
+
       </div>
     </div>
   );

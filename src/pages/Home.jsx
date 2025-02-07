@@ -26,15 +26,17 @@ function HomePages() {
   }, []);
   return (
     <div>
-      <Header />
-      <Hero />
+      <div
+        className="h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('src/assets/bagkround.jpg')" }}
+      >
+        <Header />
+        <Hero />
+      </div>
       <main className='dark:bg-[#161616]'>
         <Question />
         <Project />
         <Team />
-        <Contact />
-        <Address />
-        <Footer />
       </main>
     </div>
   )
